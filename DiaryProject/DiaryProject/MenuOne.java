@@ -57,7 +57,7 @@ public class MenuOne {
                     }
                 }
                 if (!eventAdded) {
-                    System.out.println("No hay más espacio");
+                    System.out.println(StringUtils.NO_SPACE);
                 } else {
                     Arrays.sort(myDiary[weekNumber-1][day-1], 0, i+1);
                 }
