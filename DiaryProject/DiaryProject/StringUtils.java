@@ -34,6 +34,7 @@ public class StringUtils {
     protected static final String NORMAL_COLOUR = "Green";
     protected static final String IMPORTANT_COLOUR = "Red";
     protected static final String FINISH_PROGRAM = "Finishing program";
+    protected static final String NO_SPACE = "No space";
 
     public static boolean checkString(String text) { // checking if string is not null or empty
         boolean ok = false;
