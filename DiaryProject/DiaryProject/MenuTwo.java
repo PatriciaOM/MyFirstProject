@@ -6,7 +6,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class MenuTwo {
-
+    private static final int FIRST_POSITION = 0;
     public static void subMenuOne(Event[][][] myDiary) {
         boolean myDiaryNotEmpty = false;
         for (Event[][] e : myDiary) { // for-each show events
@@ -71,7 +71,7 @@ public class MenuTwo {
         weekNumber = eventDay.get(weekFields.weekOfWeekBasedYear()); // get the week
         day = eventDay.getDayOfWeek().getValue(); // get the day
         userAnswer = StringUtils.askForString(StringUtils.ONLY_IMPORTANT, scan);
-        if(userAnswer.toLowerCase().charAt(0) == 'y'){
+        if(userAnswer.toLowerCase().charAt(FIRST_POSITION) == 'y'){
             for (int i = 0; i < myDiary[weekNumber - 1][day - 1].length; i++) {
                 if (myDiary[weekNumber - 1][day - 1][i] != null && myDiary[weekNumber - 1][day - 1][i] instanceof ImportantEvent) { //only if instance of importantEvent
                     System.out.println(myDiary[weekNumber - 1][day - 1][i].description + ". "
