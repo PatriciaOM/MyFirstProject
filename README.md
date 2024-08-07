@@ -1,7 +1,7 @@
 # MyFirstProject
 Hello everyone!
 I'm studying Java and Python for developing apps. For now, I know more Java than Python so only for practice, I did this project alone.
-It's a simple diary. It was develop with Java for improve my POO's knowledge.
+It's a simple diary. It was develop with Java for improve my OOP's knowledge.
 The Diary only works for this year, because I don't want to do it so difficult. For change the year you only have to change the constant ACTUAL_YEAR = 2024 in "MenuOne" file.
 
 There are 8 files in total. The main is in "MyDiary.java" file. There are comments throughout the code for better understanding.
